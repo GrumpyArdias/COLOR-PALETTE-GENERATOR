@@ -1,0 +1,96 @@
+* {
+  /* box-sizing: border-box;
+   outline: 3px solid limegreen !important;
+    background-color: #333;
+    color: #fff;*/
+}
+
+body {
+  background-color: #202124;
+  color: white;
+}
+
+.wrapper {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.colorsWrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto;
+}
+
+.itemWrapper {
+  padding: 5px;
+}
+
+.itemColor {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+}
+
+.inputsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.ColorPicker {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: left;
+}
+.textInputWrapper {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: right;
+}
+.savedPalettes {
+  text-align: center;
+}
+
+.palettesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+.palette {
+  width: 33%;
+}
+
+.paletteNameWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nameWrapper {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: center;
+}
+
+.buttonWrapper {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: left;
+}
+
+button {
+  border: 0px;
+  border-color: #202124;
+}
